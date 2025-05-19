@@ -1,0 +1,139 @@
+:root{
+    box-sizing: border-box;
+
+
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    text-decoration: none;
+}
+body{
+    background-color: #C9A5AA;
+    margin: 12px;
+}
+nav{
+    background: #F4D3D3;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    /*width: 100%;*/
+
+}
+
+nav ul{
+    /*display: flex;*/
+    /*justify-content: center;*/
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height:1.5;
+
+
+}
+nav ul li:hover{
+    background: #FFFF;
+    color: #006EBE;
+}
+nav h3{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: "Arial Black", sans-serif;
+    margin: 0;
+}
+main{
+    background: #FFFF;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+footer{
+    background: #F4D3D3;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+header>section{
+    background: #E9E9E9;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+header p{
+    padding: 0;
+    margin: 0;
+}
+section>p>a{
+    color: #006EBE;
+    text-decoration: none;
+}
+h1{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+.block h2{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.block p{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+figure{
+    background: #F4D3D3;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+
+}
+figure img{
+    max-width: 100%;
+    height: auto;
+}
+
+figure figcaption{
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 1.75;
+    text-align: center;
+    padding: 10px;
+}
+.list>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list>ul li{
+    border-bottom: 1px solid #C9A5AA;
+    padding: 10px;
+}
+.list>ul li:nth-child(even){
+    background: #F4D3D3;
+}
+.list>ul li:first-child{
+    background: #FCF5E9;
+}
+.list ul>li::before{
+    content: counter(list-item)". ";
+
+}
+

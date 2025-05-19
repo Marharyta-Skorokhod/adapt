@@ -1,0 +1,33 @@
+@media screen and (min-width: 820px) {
+    body{
+        /*margin: 64px 216px 29px 184px;*/
+        margin: 24px 0 29px 0;
+    }
+    .wrapper{
+        /*max-width: 800px;*/
+        max-width: 680px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    main{
+        /*padding: 30px 50px 30px 50px;*/
+    }
+    footer{
+        height: 61px;
+    }
+    footer p{
+        text-align: center;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 42px;
+    }
+}
